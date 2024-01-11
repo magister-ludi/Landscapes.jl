@@ -1,0 +1,16 @@
+name = "Landscapes"
+uuid = "f3cbb0c5-9e26-4c59-bde0-1ee8f64a8b80"
+authors = ["Michael Oldfield <magister_ludi_github@yahoo.com.au>"]
+version = "0.1.0"
+
+[deps]
+BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "BlackBoxOptim"]
