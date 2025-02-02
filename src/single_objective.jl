@@ -10,7 +10,7 @@ export rosenbrock, rotated_hyper_ellipsoid, salomon, schaffer_n2, schaffer_n4, s
 export sphere, step_function, styblinski_tang, sum_of_different_powers, sum_of_squares
 export trid, tripod, wolfe, zakharov
 
-VecOrTuple = Union{AbstractVector{<:Real}, Tuple{<:Real}}
+VecOrTuple = Union{AbstractVector{<:Real}, Tuple{Vararg{Real}}}
 
 """
     ackley(x)
